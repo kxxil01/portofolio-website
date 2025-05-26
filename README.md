@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kurniadi Ilham - Portfolio Website
+
+This is my personal portfolio website built with [Next.js](https://nextjs.org) and TailwindCSS, showcasing my skills and experience as a DevSecOps and Platform Engineer.
 
 ## Getting Started
 
