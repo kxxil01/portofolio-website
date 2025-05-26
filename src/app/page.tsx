@@ -1,8 +1,9 @@
 'use client';
 
-import { FiGithub, FiMail, FiServer, FiCloud, FiLock, FiCode, FiTerminal } from 'react-icons/fi';
-import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
-import { useState, useEffect, useRef } from 'react';
+import { FiGithub, FiMail, FiCloud, FiLock, FiCode, FiTerminal } from 'react-icons/fi';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { useState, useRef } from 'react';
+import Image from 'next/image';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -177,7 +178,13 @@ export default function Home() {
               {jobTitle}
             </div>
             <div className="flex items-center justify-center">
-              <img src="/id-flag.svg" alt="Indonesia" className="h-4 w-6 inline-block mr-2" />
+              <Image 
+                src="/id-flag.svg" 
+                alt="Indonesia" 
+                width={24} 
+                height={16} 
+                className="inline-block mr-2" 
+              />
               <span className="text-sm opacity-70">GMT+7</span>
             </div>
           </motion.div>
@@ -226,11 +233,11 @@ export default function Home() {
             </h2>
             
             <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-              I'm a passionate DevSecOps and Platform Engineer with expertise in designing and implementing secure, scalable infrastructure for modern applications. With a strong background in cloud technologies and security, I specialize in bridging the gap between development and operations while ensuring robust security practices are embedded throughout the software lifecycle.
+              I&apos;m a passionate DevSecOps and Platform Engineer with expertise in designing and implementing secure, scalable infrastructure for modern applications. With a strong background in cloud technologies and security, I specialize in bridging the gap between development and operations while ensuring robust security practices are embedded throughout the software lifecycle.
             </p>
             
             <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-              My approach combines automation, infrastructure as code, and security best practices to create resilient systems that can scale efficiently. I'm particularly interested in Kubernetes orchestration, cloud-native architectures, and implementing zero-trust security models.
+              My approach combines automation, infrastructure as code, and security best practices to create resilient systems that can scale efficiently. I&apos;m particularly interested in Kubernetes orchestration, cloud-native architectures, and implementing zero-trust security models.
             </p>
             
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
