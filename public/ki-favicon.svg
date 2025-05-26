@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Background Circle with gradient -->
+  <circle cx="16" cy="16" r="16" fill="url(#gradient)" />
+  
+  <!-- Subtle inner glow -->
+  <circle cx="16" cy="16" r="15" stroke="rgba(255,255,255,0.1)" stroke-width="0.5" fill="none" />
+  
+  <!-- Text "K" with modern styling -->
+  <path d="M10 22V10H12V15L17 10H19.5L14.5 15L20 22H17.5L13 16L12 17V22H10Z" 
+        fill="white" filter="url(#shadow)" />
+        
+  <!-- Text "I" with modern styling -->
+  <path d="M21 22V10H23V22H21Z" 
+        fill="white" filter="url(#shadow)" />
+</svg>
