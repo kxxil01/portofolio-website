@@ -197,7 +197,7 @@ export default function Home() {
               <FiMail className="h-6 w-6" />
             </MagneticButton>
             <MagneticButton 
-              href="https://github.com/ilhamkurnia" 
+              href="https://github.com/kxxil01" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-700 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-400 transition-all duration-300"
